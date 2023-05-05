@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceX - Human-Spaceflight</title>
+    <link rel="stylesheet" href="SpaceX2.css" />
+    <link
+      rel="shortcut icon"
+      href="HTML Εικονες/SpaceX/SpaceX-website-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Mobile menu-->
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu">
+      <ul>
+        <li><a href="#">Missions</a></li>
+        <li><a href="#">Launches</a></li>
+        <li><a href="#">Carrers</a></li>
+        <li><a href="#">Updates</a></li>
+        <li><a href="#">Shop</a></li>
+
+        <li class="mobile-only"><a href="falcon2.html">Falcon9</a></li>
+        <li class="mobile-only">
+          <a href="falcon2-heavy.html">Falcon heavy</a>
+        </li>
+        <li class="mobile-only"><a href="dragon2.html">Dragon</a></li>
+        <li class="mobile-only"><a href="Starship.html">StarShip</a></li>
+        <li class="mobile-only"><a href="human-spaceflight.html">Human spacelfight</a></li>
+        <li class="mobile-only"><a href="https://www.spacex.com/rideshare/">Rideshare</a></li>
+        <li class="mobile-only"><a href="#">StartLink</a></li>
+      </ul>
+    </div>
+    <header class="main-header">
+      <div class="logo">
+        <a href="SpaceX2.html">
+          <img src="HTML Εικονες/SpaceX/logo.png" alt="SpaceX" />
+        </a>
+      </div>
+
+      <!--Menu-->
+      <nav class="main-menu">
+        <ul>
+          <li><a href="falcon2.html">Falcon 9</a></li>
+          <li><a href="falcon2-heavy.html">Falcon heavy</a></li>
+          <li><a href="dragon2.html">Dragon </a></li>
+          <li><a href="Starship.html">StarShip</a></li>
+          <li><a href="human-spaceflight.html">Human spacelfight</a></li>
+          <li><a href="https://www.spacex.com/rideshare/">Rideshare</a></li>
+          <li><a href="#">StartLink</a></li>
+          <li><a href="#">Shop</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Humburger Menu-->
+    <button id="menu-btn" class="hamburger" type="button">
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </button>
+
+    <!--Section A-->
+    <section class="section-a-human-spaceflight">
+      <div class="section-a-inner-human-spaceflight">
+        <h1>HUMAN SPACEFLIGHT</h1>
+        <h2>MAKING LIFE MULTIPLANETARY</h2>
+      </div>
+      <div class="scroll-arrow">
+        <svg width="30px" height="20px">
+          <path
+            stroke="#ffffff"
+            fill="none"
+            stroke-width="2px"
+            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!--Section b-->
+    <section class="section-b-human-spaceflight">
+        <div class="carousel">
+          <button class="carousel-button carousel-button-left">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+            </svg>
+          </button>
+          <div class="carousel-track-container">
+            <ul class="carousel-track ">
+              <li class="carousel-slide current-slide cr-hs">
+                <div class="section-b-inner-human-spaceflight">
+                  <div style="left: 24%;" class="play-arrow">
+                    <a href="https://youtu.be/A_sEusdoTIM" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 64.025 81.486"
+                      class="play-arrow"
+                    >
+                      <g>
+                        <path
+                          d="M8,5V86.486L72.025,45.743Z"
+                          transform="translate(-8 -5)"
+                          fill="#fff"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                  </div>
+                  <img height="100%" width="100%" class="carousel-img-hs"  src="HTML Εικονες/SpaceX/on-orbit.jpg" alt="">                
+                  <h1>ON-ORBIT</h1>
+                  <h2>View Earth from 300km up</h2>
+                </div>
+
+                <div class="section-b-inner-human-spaceflight">
+                  <img height="100%" width="100%" class="carousel-img-hs" src="HTML Εικονες/SpaceX/launch-crop.jpg" alt="">   
+                  <h1 style="bottom:90px;">LAUNCH</h1>
+                   <h2 style="bottom:90px;">Listen as the crew prepares for liftoff</h2>
+                   <audio class="launch-audio" controls="">
+                    <source src="HTML Εικονες\SpaceX\Launch_Audio.mp3" type="audio/mpeg">
+                  </audio>
+                </div>
+              </li>             
+              <li class="carousel-slide cr-hs">                             
+                <div class="section-b-inner-human-spaceflight"> 
+                  <img height="100%" width="100%" class="carousel-img-hs" src="HTML Εικονες/SpaceX/dragon7.webp" alt="">
+                <h1 style="bottom:90px;">SPLASHDOWN</h1>
+                <h2 style="bottom:90px;">Listen to the crew prepare for landing</h2>
+                <audio class="launch-audio" controls="">
+                  <source src="HTML Εικονες\SpaceX\Splashdown_Audio_01.mp3" type="audio/mpeg">
+                </audio>              
+                </div>
+
+                <div class="section-b-inner-human-spaceflight"> 
+                  <div style="left: 75%;" class="play-arrow">
+                    <a href="https://youtu.be/hhe4Z3Y_pMM" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="50"
+                      height="50"
+                      viewBox="0 0 64.025 81.486"
+                      class="play-arrow"
+                    >
+                      <g>
+                        <path
+                          d="M8,5V86.486L72.025,45.743Z"
+                          transform="translate(-8 -5)"
+                          fill="#fff"
+                        ></path>
+                      </g>
+                    </svg>
+                  </a>
+                  </div>
+                  <img height="100%" width="100%" class="carousel-img-hs" src="HTML Εικονες/SpaceX/Training_01.jpg" alt="">
+                  <h1>TRAINING</h1>
+                  <h2>Watch crew prepare for launch day</h2>
+                  </div>
+              </li>             
+            </ul>
+          </div>
+          <div class="carousel-button carousel-button-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+            </svg>
+          </div>
+        </div>
+        
+        <div class="scroll-arrow">
+          <svg width="30px" height="20px">
+            <path
+              stroke="#ffffff"
+              fill="none"
+              stroke-width="2px"
+              d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+            ></path>
+          </svg>
+        </div>
+      </section>
+
+    <!--Section C-->
+    <section class="section-c-human-spaceflight">
+      <div class="section-c-inner-human-spaceflight">
+        <div class="section-c-inner-text-human-spaceflight">
+        <h1>OUR MISSIONS</h1>
+        <p>All Dragon and Starship missions have the ability to conduct scientific research to improve life back <br>
+          on Earth as well as raise awareness to a global audience.</p>
+          <ul class="nav-tabs" style="margin:20px 0 20px 0;" >
+            <li class="tab" data-target="#Earth-oribt" >EARTH-ORBIT</li>
+            <li class="tab" data-target="#Space-station">SPACE-STATION</li>
+            <li class="tab" data-target="#Moon" >MOON</li>
+            <li class="tab" data-target="#Mars">MARS</li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-panel active" id="Earth-oribt">
+              <pre>ORBIT FREQUENCY	                                             Every 90 minutes</pre>
+              <pre>MISSION DURATION	                                           3 - 6 days</pre>
+              <pre>ALTITUDE	                                                 300 – 500 km</pre>
+              <pre>SEATING	                                                     2 - 4 passengers</pre>
+              <pre>CUPOLA	                                            46” diameter / 360° views</pre>
+              <pre>CARGO/ SCIENCE	                                           Up to 192 kg cargo
+                                                Power / Data / Comm available</pre>
+              <p>Missions available for 2023 and 2024</p>
+            </div>
+
+            <div class="tab-panel" id="Space-station">
+              <pre>ORBIT FREQUENCY	                                             Every 90 minutes</pre>
+              <pre>MISSION DURATION	                                              10 days</pre>
+              <pre>ALTITUDE	                                                      ~400 km</pre>
+              <pre>SEATING	                                                         4 passengers</pre>
+              <pre>CARGO / SCIENCE                          	           Up to 192 kg cargo
+                                                Power / Data / Comm available</pre>
+              <p>To inquire on mission availability, click Join a Mission below</p>
+            </div>
+
+            <div class="tab-panel" id="Moon">
+              <pre>MISSION DURATION	                                                7 days</pre>
+              <pre>ALTITUDE	                                         384,400 km from Earth</pre>
+              <pre>SEATING                             Up to 12 passengers, with private quarters</pre>
+              <pre>VOLUME	                                                              1,000 m3
+                                    Nosecone area available for entertainment,
+                                    manufacturing,and scientific opportunities</pre>
+              <p>Single seat and missions available to the Moon’s orbit</p>  
+              </div>
+            
+            <div class="tab-panel" id="Mars">
+              <pre>DAY LENGTH	                                                 24 hrs 37 min</pre>
+              <pre>FORCE OF GRAVITY	                                          38% of Earth</pre>
+              <pre>AVG DISTANCE FROM EARTH	                                     225 Mkm / 140 Mmi</pre>
+              <p>To inquire on mission availability, click Join a Mission below</p>
+            </div>
+        </div>
+          
+          <a style="margin-top: 70px;" href="mailto:humanspaceflight@spacex.com" class="btn">
+            <div class="hover"></div>
+            <span>Join a mission </span>
+          </a>
+      </div>
+    </div>     
+    </section>
+
+    <!--Section D-->
+    <section class="section-d-startship">
+      <h1>THE SUIT</h1>
+      <img src="HTML Εικονες\SpaceX\the-suit-new.png">
+      <div class="tab-hs suit-circles c-1 active"  data-target="#Helmet"> </div>
+
+        <div class="tab-panel-hs hs active" id="Helmet">
+          <h1>3-D PRINTED HELMET</h1>
+          <div class="straight-line">
+            <div class="rotating-line"></div>
+          </div>
+          <p>The 3-d printed helmet with customized padding <br>
+            houses microphones for communication and valves <br>
+          that regulate the suit's pressure systems</p>      
+      </div>
+
+      <div class="tab-hs suit-circles c-2" data-target="#Elbow"></div>
+        <div class="tab-panel-hs hs2" id="Elbow">
+          <h1>OUTER LAYER</h1>
+          <div class="straight-line">
+            <div class="rotating-line-2"></div>
+          </div>
+          <p>The space suit's outer layer is made with flame- <br>
+            resistant materials. Gray parts are different <br>
+            versions of Nomex and the white material is a <br>
+            Telfon fabric</p>        
+      </div>
+
+      <div class="tab-hs suit-circles c-3" data-target="#Gloves"></div>
+        <div class="tab-panel-hs hs3" id="Gloves">
+        <h1>TOUCHSCREEN COMPATIBLE GLOVES</h1>
+        <div class="straight-line">
+          <div class="rotating-line-3"></div>
+        </div>
+          <p>The gloves are designed for easy use when the suit is <br>
+            pressurized and with the ability to operate Dragon's <br>
+            touchscreens</p>        
+      </div>
+
+      <div class="tab-hs suit-circles c-4" data-target="#Knee"></div>
+        <div class="tab-panel-hs hs4" id="Knee">
+        <h1>QUICK DISCONNECT</h1>
+        <div class="straight-line">
+          <div class="rotating-line-4"></div>
+        </div>
+          <p>A single connection point between the suit and vehicle <br>
+          provides the life support system for the astronauts: avionics <br>
+          for communications, cooling systems, and pressurization of <br>
+          the suit, all via an easy-to-use-plug-in</p>      
+      </div>
+
+      <div class="tab-hs suit-circles c-5" data-target="#Visor"></div>
+        <div class="tab-panel-hs hs5"  id="Visor">
+        <h1>Visor</h1>
+        <div class="straight-line">       
+</div>
+          <p>Designed to provide a large field of view and rotates <br>
+          open.</p>       
+      </div>
+
+      <div class="tab-hs suit-circles c-6" data-target="#Zippers">    </div>
+        <div class="tab-panel-hs hs6" id="Zippers">
+        <h1>ZIPPERS</h1>
+        <div class="straight-line">
+          <div class="rotating-line-6"></div>
+        </div>
+          <p>Zippers on the wrist allow astronauts to use their bare <br>
+          hands to control when appropriate. Zippers also <br>
+          run inside a seam inside the legs, from one ankle to the <br>
+          other, which is where the crew gets into and out of the <br>
+          suit</p>
+      </div>
+           
+      <div class="scroll-arrow">
+        <svg width="30px" height="20px">
+          <path
+            stroke="#ffffff"
+            fill="none"
+            stroke-width="2px"
+            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!--Section E-->
+    <section class="section-e-human-spaceflight"> 
+      <h1 style="text-align: center; font-size: 60px;">THE VEHICLES</h1>
+      <video style="z-index: -1;" width="100%" height="100%" autoplay="" loop="" muted="" playsinline="" poster="./assets/images/dragon_render.jpg">
+        <source src="https://www.spacex.com/human-spaceflight/assets/images/Dragon_Render_min.webm" type="video/webm">
+        <source src="https://www.spacex.com/human-spaceflight/assets/images/dragon-comp.mp4" type="video/mp4">
+      </video>    
+      <div class="section-e-inner-human-spaceflight"> 
+       <h1>DRAGON</h1>
+        <p>The Dragon spacecraft is capable of carrying up to 7 passengers to and <br>
+          from Earth orbit and beyond. It is the only spacecraft currently flying <br>
+          that is capable of returning significant amounts of cargo to Earth, and is <br>
+          the first private spacecraft to take humans to the space station.</p>
+          <a href="dragon2.html" class="btn">
+            <div class="hover"></div>
+            <span>LEARN MORE</span>
+          </a>
+        </div>
+      <div class="scroll-arrow">
+        <svg width="30px" height="20px">
+          <path
+            stroke="#ffffff"
+            fill="none"
+            stroke-width="2px"
+            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+     <!--Section F-->
+    <section class="section-f-human-spaceflight">
+      <img width="50%" height="50%" src="HTML Εικονες/SpaceX/starship.webp" alt="">
+      <div class="section-f-inner-human-spaceflight">
+        <h1>STARSHIP</h1>
+        <p>Starship is the fully reusable spacecraft and second stage of the Starship <br>
+          system. The vehicle offers an integrated payload section and is capable of <br>
+          carrying passengers and cargo to Earth orbit, planetary destinations, and <br>
+          between destinations on Earth.
+        </p>
+        <a href="Starship.html" class="btn">
+          <div class="hover"></div>
+          <span>LEARN MORE</span>
+        </a>                                           
+      </div>     
+      <div class="scroll-arrow">
+        <svg width="30px" height="20px">
+          <path
+            stroke="#ffffff"
+            fill="none"
+            stroke-width="2px"
+            d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
+          ></path>
+        </svg>
+      </div> 
+    </section>
+    
+      <!--Under the sections-->
+      <div class="under-section-c">
+        <img width="100%" src="HTML Εικονες/SpaceX/horizon.webp" alt="">      
+        <p style="margin-top: 40px;">
+          For inquiries about Starship and our human spaceflight program, contact
+          <a href="mailto:sales@spacex.com">sales@spacex.com</a>
+        </p>
+
+    <!--Footer-->
+    <footer>
+      <ul>
+        <li>SpaceX &copy; 2022</li>
+        <li>
+          <a href="https://twitter.com/spacex" target="_blank"
+            ><ion-icon name="logo-twitter" class="twitter"></ion-icon>Twitter</a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com/spacex" target="_blank"
+            ><ion-icon name="logo-youtube" class="YouTube"></ion-icon>YouTube</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/spacex/" target="_blank"
+            ><ion-icon name="logo-instagram" class="Instagram"></ion-icon
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a href="https://www.flickr.com/photos/spacex" target="_blank"
+            ><ion-icon name="logo-flickr" class="Flickr"></ion-icon>Flickr</a
+          >
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/spacex/" target="_blank"
+            ><ion-icon name="logo-linkedin" class="LinkedIn"></ion-icon
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.spacex.com/media/privacy_policy_spacex.pdf"
+            target="_blank"
+            >Privacy</a
+          >
+        </li>
+        <li><a href="https://www.spacex.com/supplier/" target="_blank">Suppliers</a></li>
+      </ul>
+    </footer>
+
+     <!--Icons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--Javascript-->
+    <script src="SpaceX4.js"></script>  
+    <script src="SpaceX2-2js.js"></script>
+   
+  </body>
+</html>
+
